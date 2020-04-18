@@ -11,7 +11,7 @@ de type "false" dans le fichier de configuration 'config.js'
 - **Utilisation des logs**: Les logs se configure dans la fichier config.js
 
 ### **Liste des bugs existants**: 
-- Certains marqueurs ne s'effacent pas après une relance de recharche
+- Certains marqueurs ne s'effacent pas après une relance de recherche
 - Si les données sont limitées à la France par le fichier de configuration, le
 le programme va planter et ne pas afficher de message d'erreur. (Il  recharge sans arrêt
 aux points de recharges trouvées proche de la frontière).
