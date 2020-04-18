@@ -1,7 +1,7 @@
 # CPE_WEB
 Projet de création de site web recherchant les bornes de recharge pour voiture electrique
 
-Le site est accessible à l'adresse suivante : https://jeremyl71.github.io/CPE_WEB/.
+Le site est accessible à l'adresse suivante : https://jeremyl71.github.io/CPE_WEB_SmartEV/
 
 
 ### Point de la version datant du 18/04/2020:
