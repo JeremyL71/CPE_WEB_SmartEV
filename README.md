@@ -1,3 +1,4 @@
+
 # CPE_WEB
 Projet de création de site web recherchant les bornes de recharge pour voiture electrique
 
@@ -9,13 +10,13 @@ Le site est accessible à l'adresse suivante : https://jeremyl71.github.io/CPE_W
 de type "false" dans le fichier de configuration 'config.js'
 - **Utilisation des logs**: Les logs se configure dans la fichier config.js
 
-###**Liste des bugs existants**: 
+### **Liste des bugs existants**: 
 - Certains marqueurs ne s'effacent pas après une relance de recharche
 - Si les données sont limitées à la France par le fichier de configuration, le
 le programme va planter et ne pas afficher de message d'erreur. (Il  recharge sans arrêt
 aux points de recharges trouvées proche de la frontière).
 
-###**Problèmes existants**:
+### **Problèmes existants**:
 - **Les données**: Certaines données concernant les points de charge sont incomplètes (aucunes
 indication concernant l'existances des bornes sur un point de charge données, bornes
 obsolètes, puissance de charges d'une bornes etc... Dans le cas où il n'y a aucune information
@@ -28,13 +29,13 @@ la valeur moyenne de toutes les bornes (environ 50 Kwh). Elle réalise le calcul
 mais préviens l'utilisateur que la durée de rechargement peut être différente.
 
 
-###**Améliorations possibles**:
+### **Améliorations possibles**:
 - Proposition de résultat dans la barre de recherche du point d'arrivé et de destination.
 - Amélioration de l'expérience utilisateur par du UX design
 - Calcul du temps de trajet (difficile puisque cela doit déterminer le temps de trajet 
 entre les différentes étapes --> prise en compte de la vitesse, du traffic etc...)
 - Création d'un compte avec un historique des trajets de l'utilisateur
-- # Améliorations des informations des bornes + classifications des bornes
+- Améliorations des informations des bornes + classifications des bornes
 
     
 
