@@ -1,0 +1,220 @@
+{
+  "Audi": {
+    "Q4 e-tron": {
+      "Autonomy": 425,
+      "BatteryCapacity": 83
+    },
+    "e-tron 50 quattro": {
+      "Autonomy": 300,
+      "BatteryCapacity": 71
+    },
+    "e-tron Sportback": {
+      "Autonomy": 400,
+      "BatteryCapacity": 95
+    }
+  },
+  "BMW": {
+    "IX3": {
+      "Autonomy": 400,
+      "BatteryCapacity": 70
+    }
+  },
+  "Citroen": {
+    "C4 électrique": {
+      "Autonomy": 300,
+      "BatteryCapacity": 50
+    },
+    "DS 3 Crossback E-Tense": {
+      "Autonomy": 300,
+      "BatteryCapacity": 50
+    }
+  },
+  "Fiat": {
+    "500e": {
+      "Autonomy": 200,
+      "BatteryCapacity": 30
+    }
+  },
+  "Ford": {
+    "Mustang Mach-E": {
+      "Autonomy": 420,
+      "BatteryCapacity": 75
+    }
+  },
+  "Honda": {
+    "Honda e": {
+      "Autonomy": 200,
+      "BatteryCapacity": 35.5
+    }
+  },
+  "Hyundai": {
+    "IONIQ Electric 2020": {
+      "Autonomy": 294,
+      "BatteryCapacity": 38.3
+    }
+  },
+  "Jaguar": {
+    "I-Pace": {
+      "Autonomy": 470,
+      "BatteryCapacity": 84.7
+    }
+  },
+  "Kia": {
+    "e-Niro": {
+      "Autonomy": 455,
+      "BatteryCapacity": 64
+    },
+    "e-Soul": {
+      "Autonomy": 452,
+      "BatteryCapacity": 64
+    }
+  },
+  "MG": {
+    "ZS EV": {
+      "Autonomy": 260,
+      "BatteryCapacity": 44.5
+    }
+  },
+  "Mazda": {
+    "MX-30": {
+      "Autonomy": 200,
+      "BatteryCapacity": 35.5
+    }
+  },
+  "Mercedes-Benz": {
+    "EQA": {
+      "Autonomy": 400,
+      "BatteryCapacity": 60
+    }
+  },
+  "Mini": {
+    "Cooper SE": {
+      "Autonomy": 235,
+      "BatteryCapacity": 32.6
+    }
+  },
+  "Nissan": {
+    "Leaf": {
+      "Autonomy": 270,
+      "BatteryCapacity": 38
+    },
+    "Leaf e+": {
+      "Autonomy": 385,
+      "BatteryCapacity": 62
+    }
+  },
+  "Opel": {
+    "Corsa-e": {
+      "Autonomy": 330,
+      "BatteryCapacity": 50
+    }
+  },
+  "Peugeot": {
+    "e-208": {
+      "Autonomy": 340,
+      "BatteryCapacity": 50
+    },
+    "e-2008 SUV": {
+      "Autonomy": 310,
+      "BatteryCapacity": 50
+    }
+  },
+  "Polestar": {
+    "Polestar 2": {
+      "Autonomy": 450,
+      "BatteryCapacity": 78
+    }
+  },
+  "Porsche": {
+    "Taycan": {
+      "Autonomy": 450,
+      "BatteryCapacity": 93.4
+    }
+  },
+  "Renault": {
+    "ZOE ZE50": {
+      "Autonomy": 390,
+      "BatteryCapacity": 55
+    }
+  },
+  "Seat": {
+    "Mii Electric": {
+      "Autonomy": 260,
+      "BatteryCapacity": 36.8
+    },
+    "el-Born": {
+      "Autonomy": 400,
+      "BatteryCapacity": 62
+    }
+  },
+  "Škoda": {
+    "CITIGOe iV": {
+      "Autonomy": 265,
+      "BatteryCapacity": 36.8
+    },
+    "Vision iV": {
+      "Autonomy": 450,
+      "BatteryCapacity": 83
+    }
+  },
+  "Smart": {
+    "EQ Forfour": {
+      "Autonomy": 120,
+      "BatteryCapacity": 16.7
+    },
+    "EQ Fortwo Coupé": {
+      "Autonomy": 120,
+      "BatteryCapacity": 16.7
+    }
+  },
+  "Tesla": {
+    "Model 3": {
+      "Autonomy": 409,
+      "BatteryCapacity": 50
+    },
+    "Model S": {
+      "Autonomy": 450,
+      "BatteryCapacity": 75
+    },
+    "Model X": {
+      "Autonomy": 375,
+      "BatteryCapacity": 75
+    },
+    "Model Y": {
+      "Autonomy": 368,
+      "BatteryCapacity": 45
+    },
+    "Roadster": {
+      "Autonomy": 1000,
+      "BatteryCapacity": 200
+    }
+  },
+  "Volkswagen": {
+    "ID Crozz": {
+      "Autonomy": 390,
+      "BatteryCapacity": 55
+    },
+    "ID.3 Pro": {
+      "Autonomy": 420,
+      "BatteryCapacity": 62
+    },
+    "ID.3 Pro S": {
+      "Autonomy": 475,
+      "BatteryCapacity": 82
+    },
+    "ID.3 Pure": {
+      "Autonomy": 330,
+      "BatteryCapacity": 48
+    },
+    "e-Up! 2020": {
+      "Autonomy": 260,
+      "BatteryCapacity": 36.8
+    }
+  },
+  "Volvo": {
+    "XC40 Electric": {
+      "Autonomy": 400,
+      "BatteryCapacity": 78
+    }
+  }
+}

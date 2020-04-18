@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- =======================================================
+    Theme Name: SmartEV
+    Theme URL: https://bootstrapmade.com/groovin-free-bootstrap-theme/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+    <meta charset="utf-8">
+    <title> SmartEv Laurent & Morandet </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+    <!-- styles -->
+    <link href="assets/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-theme.css" rel="stylesheet"/>
+    <link href="assets/css/slippry.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet"/>
+    <link href="assets/color/default.css" rel="stylesheet">
+
+    <link href="assets/css/leaflet.css" rel="stylesheet">
+    <link href="assets/css/MarkerCluster.css" rel="stylesheet">
+    <link href="assets/css/MarkerCluster.Default.css" rel="stylesheet">
+
+    <!-- javascript -->
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.js></script>
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+    <script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/slippry.min.js"></script>
+    <script src="assets/js/nagging-menu.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.scrollTo.js"></script>
+    <script src="assets/js/jquery.fancybox.pack.js"></script>
+    <script src="assets/js/jquery.fancybox-media.js"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+    <script src="assets/js/AnimOnScroll.js"></script>
+
+    <script>
+        new AnimOnScroll(document.getElementById('grid'), {
+            minDuration: 0.4,
+            maxDuration: 0.7,
+            viewportFactor: 0.2
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#slippry-slider').slippry(
+                defaults = {
+                    transition: 'vertical',
+                    useCSS: true,
+                    speed: 5000,
+                    pause: 3000,
+                    initSingle: false,
+                    auto: true,
+                    preload: 'visible',
+                    pager: false,
+                }
+            )
+        });
+    </script>
+
+    <!-- SCRIPT JS FOR MAP -->
+    <script src="mapFile/leaflet/leaflet.js" type="text/javascript"></script>
+    <script src="mapFile/leaflet/leaflet.markercluster.js" type="text/javascript"></script>
+    <script src="mapFile/leaflet/leaflet.markercluster-src.js" type="text/javascript"></script>
+    <script src="mapFile/log.js" type="text/javascript"></script>
+    <script src="mapFile/config.js" type="text/javascript"></script>
+    <script src="mapFile/cars.js" type="text/javascript"></script>
+    <script src="mapFile/compute_recharge_time.js" type="text/javascript"></script>
+    <script src="mapFile/map.js" type="text/javascript"></script>
+    <!-- SCRIPT JS FOR MAP  end -->
+
+    <script src="assets/js/custom.js"></script>
+    <script src="contactform/contactform.js"></script>
+    <script src="assets/js/modernizr.custom.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+    <script src="contactform/contactform.js"></script>
+</head>
+
+<body>
+<header>
+
+    <div class="navbar navbar-inverse navbar-fixed-top default" id="navigation" role="navigation">
+        <div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse"
+                        type="button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">SmartEv Laurent & Morandet </a>
+            </div>
+
+            <div class="navigation">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <nav>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="current"><a href="#intro">Introduction</a></li>
+                            <li><a href="#instructions">Instructions</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+
+        </div>
+    </div>
+
+</header>
+<!-- section intro -->
+<section id="intro">
+    <ul id="slippry-slider">
+        <li>
+            <a href="#slide1"><img alt="Welcome to SmartEv!" src="assets/img/slide/1.jpg"></a>
+        </li>
+        <li>
+            <a href="#slide2"><img alt="We will help you find the recharging points" src="assets/img/slide/2.jpg"></a>
+        </li>
+        <li>
+            <a href="#slide3"><img alt="Follow the different steps below :)" src="assets/img/slide/3.jpg"></a>
+        </li>
+    </ul>
+</section>
+<!-- end intro -->
+<!-- Section about -->
+<section class="section" id="instructions">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="heading">
+                    <h3><span>choose arrival and destination address</span></h3>
+                </div>
+                <div class="sub-heading">
+                    <p>
+                        Please specify the following:
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="team-box">
+                    <img alt="" class="img-responsive" src="assets/img/dummies/start.png"/>
+                    <div class="roles">
+                        <h5><strong>Select starting point</strong></h5>
+                        <p>
+                            1
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="team-box">
+                    <img alt="" class="img-responsive" src="assets/img/dummies/finish.png"/>
+                    <div class="roles">
+                        <h5><strong>Select arrival point</strong></h5>
+                        <p>
+                            2
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="team-box">
+                    <img alt="" class="img-responsive" src="assets/img/dummies/vehicle.png"/>
+                    <div class="roles">
+                        <h5><strong>Select your car</strong></h5>
+                        <p>
+                            3
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="team-box">
+                    <img alt="" class="img-responsive" src="assets/img/dummies/road.png"/>
+                    <div class="roles">
+                        <h5><strong>Follow the way</strong></h5>
+                        <p>
+                            4
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end section about -->
+<!-- map section -->
+<div class="container">
+    <h4>Navigation</h4>
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-6">
+                <label for="addOrigin">Start Point</label>
+                <input class="form-control" id="addOrigin" type="text">
+            </div>
+            <div class="col-md-6">
+                <label for="addDestination">Destination Point</label>
+                <input class="form-control" id="addDestination" type="text">
+            </div>
+        </div>
+        <h4>Car Params</h4>
+        <div class="row">
+            <div class="col-md-4">
+                <label for="brand">Brand</label>
+                <select class="form-control" id="brand">
+                    <option disabled selected value> -- Select a Brand --</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="model">Model</label>
+                <select class="form-control" id="model">
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="autonomieDepart">Starting autonomy (%)</label>
+                <input class="form-control" id="autonomieDepart" max="100" min="0" type="number" value="100"/>
+            </div>
+            <div class="col-md-2">
+                <label for="autonomieKM">Car autonomy (km)</label>
+                <input class="form-control" disabled="disabled" id="autonomieKM" type="number"/>
+                <input type="hidden" id="BatteryCapacity" name="BatteryCapacity"/>
+            </div>
+        </div>
+        <div class="row">
+            <button class="col-md-offset-4 col-md-4 btn btn-success" id="launchNav" type="button">Go !</button>
+        </div>
+        <div class="row">
+            <div allowfullscreen class="mx-auto col-md-12 col-sm-12 col-xs-12" frameborder="0" id="map"
+                 style="height:50em"></div>
+        </div>
+        <div class="row">
+            <div id="indication_table">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col">Type</th>
+                        <th scope="col">Address</th>
+                        <th scope="col">Charge Time</th>
+                    </tr>
+                    </thead>
+                    <tbody id="indication">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- end map section -->
+<!-- section contact -->
+<section class="section" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="heading">
+                    <h3><span>Get in touch</span></h3>
+                </div>
+                <div class="sub-heading">
+                    <p>
+                        In case of problem, contact us!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h4><i class="icon-envelope"></i><strong>Contact form</strong></h4>
+                <p>
+                    Want to work with us or just want to say hello? Don't hesitate to get in touch!
+                </p>
+                <!-- start contact form -->
+                <div class="cform" id="contact-form">
+                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="errormessage"></div>
+                    <form action="" class="contactForm" method="post" role="form">
+                        <div class="form-group">
+                            <input class="form-control" data-msg="Please enter at least 4 chars" data-rule="minlen:4"
+                                   id="name" name="name"
+                                   placeholder="Your Name"
+                                   type="text"/>
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" data-msg="Please enter a valid email" data-rule="email"
+                                   id="email"
+                                   name="email"
+                                   placeholder="Your Email"
+                                   type="email"/>
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" data-msg="Please enter at least 8 chars of subject"
+                                   data-rule="minlen:4" id="subject" name="subject"
+                                   placeholder="Subject"
+                                   type="text"/>
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" data-msg="Please write something for us" data-rule="required"
+                          name="message"
+                          placeholder="Message"
+                          rows="5"></textarea>
+                            <div class="validation"></div>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-lg btn-theme" type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- END contact form -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end section contact -->
+<footer>
+    <div class="verybottom">
+            <div class="col-md-12">
+                <div class="aligncenter">
+                    <ul class="social-network social-circle">
+                        <li><a class="icoFacebook" href="https://www.facebook.com/cpelyon/" title="Facebook"><i
+                                class="fa fa-facebook"></i></a></li>
+                        <li>
+                            <a class="icoTwitter"
+                               href="https://twitter.com/CPELyon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                               title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="icoGoogle" href="https://www.cpe.fr/" title="Google +"><i
+                                class="fa fa-google-plus"></i></a></li>
+                        <li>
+                            <a class="icoLinkedin"
+                               href="https://www.linkedin.com/school/ecole-superieure-de-chimie-physique-electronique-de-lyon/"
+                               title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="aligncenter">
+                    <p>
+                        &copy; CPE Project: @SmartEV
+                    </p>
+                    <div class="credits">
+                        <!--
+                          All the links in the footer should remain intact.
+                          You can delete the links only if you purchased the pro version.
+                          Licensing information: https://bootstrapmade.com/license/
+                          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Groovin
+                        -->
+                        Designed by Laurent Jeremy & Louis Morandet
+                    </div>
+                </div>
+            </div>
+        </div>
+</footer>
+<a class="scrollup" href="#"><i class="fa fa-angle-up fa-2x"></i></a>
+</body>
+</html>
